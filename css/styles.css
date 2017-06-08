@@ -1,0 +1,31 @@
+
+form {
+  width: 90%;
+  margin: 1.25em 5%;
+}
+
+input {
+  width: 100%;
+  border: solid 1px lightgrey;
+  border-radius: .25em;
+  padding: .75em 0;
+  text-indent: 1em;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
+.photo-gallery {
+  text-align: center;
+}
+
+.photo-gallery a {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 45%;
+  margin: .5em 2%;
+}
