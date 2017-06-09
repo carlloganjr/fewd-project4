@@ -1,5 +1,5 @@
 
-form {
+.search {
   width: 90%;
   margin: 1.25em 5%;
 }
@@ -8,7 +8,8 @@ input {
   width: 100%;
   border: solid 1px lightgrey;
   border-radius: .25em;
-  padding: .75em 0;
+  margin-top: 1em;
+  padding: .6em 0;
   text-indent: 1em;
 }
 
@@ -17,6 +18,8 @@ input::placeholder {
 }
 
 .photo-gallery {
+  width: 97.5%;
+  margin: auto 1.25%;
   text-align: center;
 }
 
@@ -28,4 +31,81 @@ input::placeholder {
 img {
   width: 45%;
   margin: .5em 2%;
+}
+
+
+/********* STYLES FOR magnific popup **********/
+
+.mfp-title /*captions*/ {
+  text-align: center;
+  font-size: 1em;
+  padding: 0;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mfp-figure:after /*side divs*/ {
+  opacity: 0;
+  box-shadow: none;
+}
+
+.mfp-counter /*photo counter*/ {
+  display: none;
+}
+
+/*********************************************/
+
+
+@media (min-width: 414px) {
+
+  .search {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  img {
+    width: 28%;
+  }
+}
+
+@media (min-width: 736px) {
+
+  img {
+    width: 22%;
+    margin: 2%;
+  }
+
+  .search {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  /********* STYLES FOR magnific popup **********/
+
+  .mfp-title /*captions*/ {
+    width: 600px;
+    margin: 2.5em auto 0;
+  }
+
+  img.mfp-img {
+    max-width: 75%;
+    padding-top: 0;
+  }
+
+  .mfp-image-holder .mfp-close,
+  .mfp-iframe-holder .mfp-close /*close button*/ {
+    padding-right: 9%;
+    top: -1.5em;
+  }
+
+  /*********************************************/
+}
+
+@media (min-width: 1024px) {
+
+  img {
+    width: 17%;
+  }
 }
