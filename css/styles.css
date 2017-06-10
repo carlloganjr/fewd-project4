@@ -23,9 +23,15 @@ input::placeholder {
   text-align: center;
 }
 
-.photo-gallery a {
+a {
   margin: 0;
   padding: 0;
+}
+
+li {
+list-style: none;
+display: inline;
+width: 100%;
 }
 
 img {
