@@ -1,3 +1,13 @@
+$('.photo-gallery').magnificPopup({
+  delegate: 'a',
+  type: 'image',
+  closeOnContentClick: true,
+  closeOnBgClick: true,
+  gallery: {
+    enabled: true
+  }
+});
+
 function searchInput() {
   $('#search').on('keyup', function() {
     var searchData = $(this).val();
