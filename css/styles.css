@@ -17,6 +17,12 @@ input::placeholder {
   color: lightgrey;
 }
 
+.no-img {
+  text-align: center;
+  font-size: .75rem;
+  margin: 1em;
+}
+
 .photo-gallery {
   width: 97.5%;
   margin: auto 1.25%;
